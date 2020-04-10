@@ -1,2 +1,14 @@
 import React from "react"
-export default () => <h1>Hello Toucans Team 05!</h1>
+import Header from './templates/header'
+import Nabvar from './templates/navbar'
+import Footer from './templates/footer'
+
+export default () => {
+  return (
+    <div>
+      <Header />
+      <Navbar />
+      <Footer />
+    </div>
+  )
+}
