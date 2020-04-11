@@ -1,19 +1,19 @@
 import React from 'react' 
-
+import './footer.css'
 const Footer = ()=> { 
   return ( 
-    <div className={flex}> 
-      <ul className={menuList}> 
-        <li>About</li> 
-        <li>Concept</li> 
-        <li>Terms</li> 
-        <li>Q&amp;A</li> 
-        <li>Contact</li> 
+    <div className="container flex"> 
+      <ul className="flex"> 
+        <li className="menuList">About</li> 
+        <li className="menuList">Concept</li> 
+        <li className="menuList">Terms</li> 
+        <li className="menuList">Q&amp;A</li> 
+        <li className="menuList">Contact</li> 
       </ul> 
-      <ul className={snsList}> 
-        <li><i class="fab fa-twitter"></i></li> 
-        <li><i class="fab fa-github"></i></li> 
-        <li><i class="fab fa-facebook-square"></i></li> 
+      <ul className="flex"> 
+        <li className="snsList"><i class="fab fa-twitter"></i></li> 
+        <li className="snsList"><i class="fab fa-github"></i></li> 
+        <li className="snsList"><i class="fab fa-facebook-square"></i></li> 
       </ul> 
     </div> 
   ) 

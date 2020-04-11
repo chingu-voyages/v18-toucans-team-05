@@ -1,9 +1,9 @@
 import React from 'react' 
-
+import './header.css'
 const Header = ()=> { 
   return ( 
-    <div className={flex}> 
-      <ul> 
+    <div > 
+      <ul className="flex"> 
         <li>About</li> 
         <li>Concept</li> 
         <li>Terms</li> 
