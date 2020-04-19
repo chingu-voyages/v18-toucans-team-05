@@ -1,9 +1,9 @@
 import React from "react"
-import Header from './templates/header'
-import Nabvar from './templates/navbar'
-import Footer from './templates/footer'
+import Header from '../components/header'
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
 
-export default () => {
+const index = () => {
   return (
     <div>
       <Header />
@@ -12,3 +12,5 @@ export default () => {
     </div>
   )
 }
+
+export default index

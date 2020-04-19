@@ -1,16 +1,13 @@
 import React from 'react' 
-import './content.css'
+import contentStyles from './content.module.scss'
 
 const Content = ()=> { 
   return ( 
-    <div className="articlecontainer"> 
-      <ul className="articleList flex">
-        <li className="articlelist"><p>Monthly</p></li> 
-        <li className="articlelist"><p>Weekly</p></li> 
-        <li className="articlelist"><p>Daily</p></li> 
-        <li className="articlelist"><p>Monthly</p></li>
-        <li className="articlelist"><p>Weekly</p></li> 
-        <li className="articlelist"><p>Daily</p></li> 
+    <div className={ contentStyles.articlecontainer }> 
+      <ul className={ contentStyles.articlelist }>
+        <li className={ contentStyles.articlelist }><p>Monthly</p></li> 
+        <li className={ contentStyles.articlelist }><p>Weekly</p></li> 
+        <li className={ contentStyles.articlelist }><p>Daily</p></li> 
       </ul> 
     </div> 
   ) 
