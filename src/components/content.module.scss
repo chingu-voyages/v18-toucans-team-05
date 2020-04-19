@@ -1,16 +1,20 @@
 .articlecontainer {
   width: 70%;
-}
-
-.flex {
   display: flex;
   flex-wrap: wrap;
 }
 
+/*
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+*/
+
 .articlelist {
   width: 250px;
   height: 250px;
-  background: pink;
+  background-color: pink;
   margin: 5px;
   text-align: center;
 }
