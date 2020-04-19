@@ -1,2 +1,16 @@
 import React from "react"
-export default () => <h1>Hello Toucans Team 05!</h1>
+import Header from '../components/header'
+import Navbar from '../components/navbar'
+import Footer from '../components/footer'
+
+const index = () => {
+  return (
+    <div>
+      <Header />
+      <Navbar />
+      <Footer />
+    </div>
+  )
+}
+
+export default index
