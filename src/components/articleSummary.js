@@ -1,5 +1,8 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
+
+import articleSummaryStyles from "./articleSummary.module.scss";
+
 const ArticleSummary = ()=> {
 
 const data = useStaticQuery(graphql`
@@ -21,8 +24,8 @@ const data = useStaticQuery(graphql`
 `)
 
   return (
-    <div>
-      <h1>Article Summary</h1>
+    <div className={ articleSummaryStyles.container}>
+      <h1>Articles</h1>
         <ol>
             {data.allMarkdownRemark.edges.map((edge) => {
                 return (

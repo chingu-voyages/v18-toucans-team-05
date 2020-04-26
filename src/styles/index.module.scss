@@ -14,4 +14,10 @@ code {
 
 .flex {
   display: flex;
+  flex-direction: row;
+}
+
+.content {
+  display: block;
+  margin-left: 30px;
 }
