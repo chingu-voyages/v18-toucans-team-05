@@ -1,6 +1,6 @@
 ﻿---
 title: "Mathematical Foundations Necessary for Programming"
-date:"2020-03-01"
+date: "2020-03-01"
 author: "Albert Einstein XXXIII"
 
 ---
