@@ -1,7 +1,6 @@
-﻿
----
+﻿---
 title: "What I've Learned in my First Year of Programming"
-date:"2020-02-01"
+date: "2020-02-01"
 author: "Jojo"
 
 ---

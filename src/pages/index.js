@@ -1,14 +1,13 @@
 import React from "react"
-import Header from '../components/header'
-import Navbar from '../components/navbar'
-import Footer from '../components/footer'
+import Layout from '../components/layout'
+import ArticleSummary from '../components/articleSummary'
 
 const index = () => {
   return (
     <div>
-      <Header />
-      <Navbar />
-      <Footer />
+      <Layout>
+        <ArticleSummary />
+      </Layout>
     </div>
   )
 }
