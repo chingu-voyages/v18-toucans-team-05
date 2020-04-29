@@ -1,8 +1,28 @@
 .flex {
   display: flex;
+  margin: 0;
+}
+
+.container {
+  background: #fef9fb;
+  min-height: 50px;
 }
 
 ul {
   list-style: none;
   justify-content: space-evenly;
+}
+
+.list_ {
+  margin-top: 5px;
+  padding-top: 3px;
+  width: 80px;
+  height: 30px;
+  background: #F5C5C6;
+  text-align: center;
+  box-shadow: 2px 2px 4px gray;
+}
+
+a:visited {
+  color: #594A4E;
 }
