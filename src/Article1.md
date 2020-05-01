@@ -2,7 +2,8 @@
 title: "Best Resources to Start Learning to Code"
 date: "2020-04-16"
 author: "Newbie"
-
+category: "Beginner"
+popularity: "Monthly"
 ---
 <p> Like many others, maybe you're looking to learn more about programming! Well, look no more! Today, I will list my <strong> top three </strong> resources that can help you begin your programming journey today!
 
