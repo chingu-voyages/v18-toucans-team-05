@@ -1,13 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+
 .container {
   margin-left: 50px;
   max-width: 900px;
   min-height: 500px;
-  border: solid 1px #E5E6E6;
+  // border: solid 1px #E5E6E6;
   font-size: 20px;
   text-align: center;
   padding: 10px;
-  background: #FAEEE7;
-  color: #594a4e;
+  // background: #FAEEE7;
+  // color: #594a4e;
 }
 
 .flex {
@@ -29,6 +31,7 @@
 .title {
   margin: 0;
   padding-left: 10px;
+  font-family: 'Cuprum', sans-serif;
 }
 
 li {
@@ -63,6 +66,7 @@ li {
   color: #647080;
   padding-left: 5px;
   margin-top: 10px;
+  font-family: 'Cuprum', sans-serif;
 }
 
 a:link {

@@ -1,5 +1,5 @@
 import React from 'react' 
-import navbarStyle from '../components/navbar.module.scss'
+// import navbarStyle from '../components/navbar.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/layout'
 import BlogStyles from '../styles/blogPages.module.scss'
@@ -31,7 +31,7 @@ const CSS_ = ()=> {
       <div class={BlogStyles.container}>
         <div class={BlogStyles.titlecontainer}>
           <div class={BlogStyles.flex}>
-            <img src={cssicon} className={BlogStyles.iconimg}/>
+            <img src={cssicon} alt="" className={BlogStyles.iconimg}/>
             <h3 className={BlogStyles.title}>&#35;CSS</h3>
           </div>
         </div>

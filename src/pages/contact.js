@@ -16,6 +16,10 @@ const Contact = ()=> {
           <input type="text"></input>
         </div>
         <div class={pagesStyle.flex}>
+          <div class={pagesStyle.label}>Email</div>
+          <input type="email"></input>
+        </div>
+        <div class={pagesStyle.flex}>
           <div class={pagesStyle.label}>Subject</div>
           <input type="text"></input>
         </div>

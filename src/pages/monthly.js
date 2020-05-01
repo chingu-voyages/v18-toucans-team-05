@@ -1,10 +1,10 @@
 import React from 'react' 
-import navbarStyle from '../components/navbar.module.scss'
+// import navbarStyle from '../components/navbar.module.scss'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/layout'
 import BlogStyles from '../styles/blogPages.module.scss'
 import calender from '../img/calender.svg'
-import icon from '../img/icon.svg'
+// import icon from '../img/icon.svg'
 
 const Monthly = ()=> {
   const monthly = useStaticQuery(graphql`
@@ -32,7 +32,7 @@ const Monthly = ()=> {
     <div class={BlogStyles.container}>
           <div class={BlogStyles.titlecontainer}>
             <div class={BlogStyles.flex}>
-              <img src={calender} className={BlogStyles.iconimg}/>
+              <img src={calender} alt="" className={BlogStyles.iconimg}/>
               <h3 className={BlogStyles.title}>Monthly</h3>
             </div>
           </div>

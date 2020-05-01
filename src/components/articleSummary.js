@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
 
-import articleSummaryStyles from "./articleSummary.module.scss";
+import articleSummaryStyles from "../styles/articleSummary.module.scss";
 
 const  ArticleSummary =()=> {
 

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+
+.flex {
+  display: flex;
+  margin: 0;
+}
+
+.container { 
+  position: sticky;
+  top: 0px;
+  background: #FAEEE7;
+  min-height: 50px;
+  border: solid 1px #E5E6E6;
+  box-shadow: 2px 2px 4px gray;
+ }
+
+ul {
+  font-family: 'Cuprum', sans-serif;
+  list-style: none;
+  justify-content: space-evenly;
+}
+
+.list_ {
+  align-content: center;
+  margin-top: 5px;
+  padding-top: 3px;
+  width: 80px;
+  height: 30px;
+  background: #F5C5C6;
+  text-align: center;
+  box-shadow: 2px 2px 4px gray;
+}
+
+.list:active {
+  box-shadow: 1px 1px 3px gray;
+  transform: translateY(1px);
+}
+
+a:visited {
+  color: #594A4E;
+}
+

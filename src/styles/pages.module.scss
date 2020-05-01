@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+
 body {
   color: #34282A;
+  font-family: 'Cuprum', sans-serif;
 }
 
 .container {
@@ -7,6 +10,7 @@ body {
   max-width: 900px;
   min-height: 500px;
   border: solid 1px #E5E6E6;
+  box-shadow: 2px 2px 4px gray;
   font-size: 20px;
   text-align: left;
   padding: 10px;
@@ -19,6 +23,7 @@ body {
   min-width: 800px;
   min-height: 500px;
   border: solid 1px #E5E6E6;
+  box-shadow: 2px 2px 4px gray;
   font-size: 20px;
   text-align: center;
   padding: 10px;
@@ -61,6 +66,12 @@ button {
   box-shadow: 2px 2px 3px gray;
 }
 
-button:hover {
+// button:hover {
+//   opacity: 0.5;
+// }
+
+button:active {
   opacity: 0.5;
+  box-shadow: 1px 1px 2px gray;
+  transform: translateY(1px);
 }

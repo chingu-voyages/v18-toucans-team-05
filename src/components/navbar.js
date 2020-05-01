@@ -1,5 +1,5 @@
 import React from 'react' 
-import navbarStyle from './navbar.module.scss'
+import navbarStyle from '../styles/navbar.module.scss'
 import {Link} from 'gatsby'
 
 const Navbar = ()=> {

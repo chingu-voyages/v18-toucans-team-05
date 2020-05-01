@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+
 .flex {
     display: flex;
 }
@@ -7,9 +9,11 @@
     min-width: 1000px;
     margin-left: 30px;
     background: #FAEEE7;
+    box-shadow: 2px 2px 4px gray;
 }
 
 .artTitle {
+    font-family: 'Cuprum', sans-serif;
     color: #594a4e;
     width: 750px;
     height: 100px;
@@ -55,6 +59,7 @@ li {
 }
 
 a:link {
+    font-family: 'Cuprum', sans-serif;
     color: black;
     text-decoration: none;
 }
