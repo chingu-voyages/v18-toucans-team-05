@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 import Layout from '../components/layout'
 
 import articleStyles from './articleBody.module.scss'
+import pagesStyle from '../styles/pages.module.scss'
 
 export const query = graphql`
   query($slug: String!) {
@@ -23,10 +24,12 @@ const ArticleBody = (props) => {
         <div>
           <Layout>
           <div className={ articleStyles.flex }>
-            <h1>{props.data.markdownRemark.frontmatter.title}</h1>
+            <div className={ pagesStyle.container}> 
+            <h1> {props.data.markdownRemark.frontmatter.title} </h1>
             <p>{props.data.markdownRemark.frontmatter.date}</p>
             <p> Written by {props.data.markdownRemark.frontmatter.author}</p>
             <div dangerouslySetInnerHTML={{ __html: props.data.markdownRemark.html }}></div>
+            </div>            
             </div>
             </Layout>
         </div>

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+
+.flex {
+    display: flex;
+}
+
+.container {
+    text-align: center;
+    min-width: 1000px;
+    margin-left: 30px;
+    background: #FAEEE7;
+    box-shadow: 2px 2px 4px gray;
+}
+
+.artTitle {
+    font-family: 'Cuprum', sans-serif;
+    color: #594a4e;
+    width: 750px;
+    height: 100px;
+    background: #ffc6c7;
+    border: solid 1px #E5E6E6;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px gray;
+    margin-left: 30px;
+    padding: 20px;
+    font-size: 40px;
+}
+
+li {
+    list-style: none;
+}
+
+.category {
+    margin-bottom: 20px;
+    color: black;
+    font-size: 20px;
+}
+
+.articlebx {
+    width: 700px;
+    height: 200px;
+    background: #ffc6c7;
+    border: solid 1px #E5E6E6;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px gray;
+    margin: 20px;
+    padding: 10px;
+}
+
+.date {
+    margin-left: 250px;
+    margin-right: 5px;
+    color: #647080;
+}
+
+.author {
+    color: #647080;
+    padding-left: 5px;
+}
+
+a:link {
+    font-family: 'Cuprum', sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #915da3;
+}
+
+a:hover {
+    color: #7f1184;
+}
