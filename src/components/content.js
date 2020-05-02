@@ -1,5 +1,5 @@
 import React from 'react' 
-import contentStyles from './content.module.scss'
+import contentStyles from './styles/content.module.scss'
 
 const Content = ()=> { 
   return ( 

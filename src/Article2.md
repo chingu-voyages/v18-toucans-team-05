@@ -1,8 +1,9 @@
 ﻿---
 title: "Best Developer Tools Out There"
-date:"2020-04-17"
+date: "2020-04-17"
 author: "I.M.Dev" 
-
+category: "Tool"
+popularity: "Weekly"
 ---
 
 <h3> For Mockups: Adobe XD </h3>

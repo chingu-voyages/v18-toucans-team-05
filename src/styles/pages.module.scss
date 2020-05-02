@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+
+body {
+  color: #34282A;
+  font-family: 'Cuprum', sans-serif;
+}
+
+.container {
+  margin-left: 50px;
+  max-width: 900px;
+  min-height: 500px;
+  border: solid 1px #E5E6E6;
+  box-shadow: 2px 2px 4px gray;
+  font-size: 20px;
+  text-align: left;
+  padding: 10px;
+  background: #FAEEE7;
+  color: #594a4e;
+}
+
+.contact {
+  margin-left: 50px;
+  min-width: 800px;
+  min-height: 500px;
+  border: solid 1px #E5E6E6;
+  box-shadow: 2px 2px 4px gray;
+  font-size: 20px;
+  text-align: center;
+  padding: 10px;
+  background: #FAEEE7;
+}
+
+.flex {
+  display: flex;
+}
+
+.label {
+  width: 200px;
+  padding-top: 5px;
+  margin-left: 200px;
+  background: #F5C5C6;
+  border: solid 1px #EE89A6;
+  color: #594a4e;
+}
+
+input {
+  min-width: 250px;
+  font-size: 20px;
+  color: #594a4e;
+}
+
+textarea {
+  min-width: 250px;
+  font-size: 20px;
+  min-height: 200px;
+  border: lightgray;
+  color: #594a4e;
+}
+
+button {
+  margin-top: 30px;
+  width: 100px;
+  height: 30px;
+  background: #ff8ba7;
+  border-radius: 5px;
+  box-shadow: 2px 2px 3px gray;
+}
+
+// button:hover {
+//   opacity: 0.5;
+// }
+
+button:active {
+  opacity: 0.5;
+  box-shadow: 1px 1px 2px gray;
+  transform: translateY(1px);
+}
