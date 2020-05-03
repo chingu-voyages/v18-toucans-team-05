@@ -1,7 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css');
+
+.footer {
+  margin-top: 3rem;
+}
+
 .flex {
-  display: flex;
+ display: flex;
 }
 
 .menuList, .snsList {
   margin: 0 20px;
+  font-size: 35px;
+}
+
+i:hover {
+  color: #ff8ba7;
 }

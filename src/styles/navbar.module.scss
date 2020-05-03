@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cuprum&display=swap');
+
 .navcontainer {
   width: 20%;
   text-align: right;
@@ -9,12 +11,21 @@
 
 p {
   margin: 3px;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 20px;
 }
 
 .right {
-  margin-left: 130px;
+  margin-left: 110px;
 }
 
 li {
   margin: 5px 0;
+  font-family: 'Cuprum', sans-serif;
+  font-size: 25px;
+}
+
+.list:active {
+  box-shadow: 1px 1px 3px gray;
+  transform: translateY(1px);
 }
