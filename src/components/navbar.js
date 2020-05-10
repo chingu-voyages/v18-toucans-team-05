@@ -1,8 +1,15 @@
 import React from 'react'
 import navbarStyle from '../styles/navbar.module.scss'
 import { Link } from 'gatsby'
+//import { Container, Logo } from './styles'
+import Search from './search'
 
-const Navbar = () => {
+const searchIndices = [
+  { name: `Pages`, title: `Pages`, Hits: `PageHit` },
+  { name: `Posts`, title: `Blog Posts`, Hits: `PostHit` },
+]
+
+const Navbar = ({ site }) => {
   return (
     <div className={navbarStyle.navcontainer}>
       <ul className={navbarStyle.articleList}>
@@ -28,6 +35,7 @@ const Navbar = () => {
         <li className={`navbarStyle.flex, navbarStyle.right`}><p><Link to="/javascript">#Javascript</Link></p></li>
         <li className={`navbarStyle.flex, navbarStyle.right`}><p><Link to="/css">#CSS</Link></p></li>
       </ul>
+      <Search collapse indices={searchIndices} />
     </div>
   )
 }
