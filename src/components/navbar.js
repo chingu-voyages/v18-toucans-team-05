@@ -1,15 +1,15 @@
 import React from 'react'
 import navbarStyle from '../styles/navbar.module.scss'
 import { Link } from 'gatsby'
-//import { Container, Logo } from './search/styles.js'
+//import { Container, Logo } from './styles'
 import Search from './search'
 
 const searchIndices = [
-  { name: `Pages`, title: `Pages`, hitComp: `PageHit` },
-  { name: `Posts`, title: `Blog Posts`, hitComp: `PostHit` },
+  { name: `Pages`, title: `Pages`, Hits: `PageHit` },
+  { name: `Posts`, title: `Blog Posts`, Hits: `PostHit` },
 ]
 
-const Navbar = ({ site, transparent }) => {
+const Navbar = ({ site }) => {
   return (
     <div className={navbarStyle.navcontainer}>
       <ul className={navbarStyle.articleList}>
