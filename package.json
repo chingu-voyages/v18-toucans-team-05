@@ -23,17 +23,25 @@
   },
   "homepage": "https://github.com/chingu-voyages/v18-toucans-team-05#readme",
   "dependencies": {
+    "algoliasearch": "^4.2.0",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
     "gatsby": "^2.20.12",
+    "gatsby-plugin-algolia": "^0.11.0",
     "gatsby-plugin-sass": "^2.2.1",
     "gatsby-plugin-sharp": "^2.5.3",
+    "gatsby-plugin-styled-components": "^3.3.1",
     "gatsby-remark-images": "^3.2.1",
     "gatsby-remark-relative-images": "^0.3.0",
     "gatsby-source-filesystem": "^2.2.2",
     "gatsby-transformer-remark": "^2.7.1",
+    "js-search": "^2.0.0",
     "node-sass": "^4.13.1",
     "react": "^16.13.1",
     "react-async": "^10.0.1",
-    "react-dom": "^16.13.1"
+    "react-dom": "^16.13.1",
+    "react-instantsearch-dom": "^6.4.0",
+    "styled-components": "^5.1.0"
   },
   "devDependencies": {
     "env-cmd": "^10.1.0",

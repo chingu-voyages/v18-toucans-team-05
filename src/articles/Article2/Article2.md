@@ -5,7 +5,8 @@ author: "I.M.Dev"
 category: "Tool"
 popularity: "Weekly"
 ---
-
+![Devs At Work - Photo by Marvin Meyer](./devsAtWork-marvin-meyer.jpg)
+Devs At Work - Photo by Marvin Meyer
 <h3> For Mockups: Adobe XD </h3>
 <p> Mockups are an important part of development. It's very important to get a sense of what you want your final project to look like and to plan the functional aspects of your project before you start. It saves a lot of time and hassle for your whole team. </p>
 <h3> For Task MGMT: ZenHub </h3>

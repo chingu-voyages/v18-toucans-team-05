@@ -5,10 +5,11 @@ author: "Newbie"
 category: "Beginner"
 popularity: "Monthly"
 ---
-<p> Like many others, maybe you're looking to learn more about programming! Well, look no more! Today, I will list my <strong> top three </strong> resources that can help you begin your programming journey today!
+![Everyone Can Code ! -Photo by Adi Goldstein](./everyoneCanCode-adi-goldstein.jpg)
+Everyone Can Code ! -Photo by Adi Goldstein
 
-Let's get started!
-
+<p> Like many others, maybe you're looking to learn more about programming! Well, look no more! Today, I will list my <strong> top three </strong> resources that can help you begin your programming journey today!<p>
+<p> Let's get started! <p>
 <ol>
 <li> Congrats! You found it! It's here at <strong> <a href="https://dev.to/"> dev.to</a></strong>! </li>
 <p>This is one of the best resources for learning to code and luckily you have already stumbled across it. So, good work! There's a <em> huge </em> community of people here at dev.to who you can ask anything about tech to and many more ways to network with those in the industry. </p> </li>
