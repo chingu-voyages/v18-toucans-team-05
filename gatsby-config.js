@@ -3,8 +3,9 @@
  *
  * See: https://www.gatsbyjs.org/docs/gatsby-config/
  */
+
+require("dotenv").config({ path: `.env.development` })
 const queries = require("./src/utils/algolia")
-require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
@@ -41,8 +42,9 @@ module.exports = {
       options: {
         appId: process.env.GATSBY_ALGOLIA_APP_ID,
         apiKey: process.env.ALGOLIA_ADMIN_KEY,
+        indexName: process.env.ALGOLIA_INDEX_NAME, //for all queries
         queries,
-        chunkSize: 10000, // default: 1000
+        chunkSize: 1000, // default: 1000
       }
     },
     `gatsby-plugin-styled-components`,

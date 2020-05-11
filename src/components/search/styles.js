@@ -20,7 +20,7 @@ const focus = css`
   background: white;
   color: ${props => props.theme.darkBlue};
   cursor: text;
-  width: 5em;
+  width: 2em;
   + ${SearchIcon} {
     color: ${props => props.theme.darkBlue};
     margin: 0 0.3em;
@@ -48,11 +48,11 @@ const expanded = css`
     margin: 0.3em;
   }
 `
-
+//below: Search bar text
 export const Input = styled.input`
   outline: none;
   border: none;
-  font-size: 1em;
+  font-size: 2vw;
   background: transparent;
   transition: 0.3s;
   border-radius: 0.2em;
@@ -64,7 +64,7 @@ export const Form = styled.form`
   flex-direction: row-reverse;
   align-items: center;
 `
-
+//pop-up results box
 export const HitsWrapper = styled.div`
   display: ${props => (props.show ? `grid` : `none`)};
   background: ${props => props.theme.background};
@@ -75,7 +75,7 @@ export const HitsWrapper = styled.div`
   right: 0;
   top: calc(100% + 0.5em);
   width: 80vw;
-  max-width: 30em;
+  max-width: 10em;
   box-shadow: 0 0 5px 0 black;
   padding: 0.7em 1em 0.4em;
   border-radius: 0.2em;
@@ -106,7 +106,7 @@ export const HitsWrapper = styled.div`
     }
   }
   * + header {
-    padding-top: 1em;
+    padding-top: 5em;
   }
   h4 {
     margin-bottom: 0.3em;
