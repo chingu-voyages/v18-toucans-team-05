@@ -20,7 +20,7 @@ The app is deployed [here](https://v18toucans05.netlify.app/).
 
 ## Getting Started
 
-This project is based on several packages including [Gatsby/React](https://quotes21.p.rapidapi.com/quote), [Sass](https://sass-lang.com/), and 
+This project is based on several packages including [Gatsby/React](https://gatsbyjs.org), [Sass](https://sass-lang.com/), and 
 [GraphQL](https://graphql.org/).
 
 ### Running Locally
