@@ -1,94 +1,67 @@
-# v18-toucans-team-05
-Add-project-description-here | Voyage-18 | https://chingu.io/
+Chingu Voyage 18 Team Project - [Chingu.io](https://chingu.io)
 
-Need to add detail - Added details
+![ProjectScreenshot](./src/assets/V18ToucansProject.gif)
 
-# Project Title
+# Toucans 05 Team - Blog App
 
-One Paragraph of project description goes here
+For Chingu Voyage 18 the Toucans team 05 created a blog application based on
+[Dev.to](https://dev.to). This was created over 6-weeks following the 
+Agile Scrum methodology.
+
+Some of the features of this app are:
+
+- Provide users with a quick and easy way to locate articles and display their
+content
+- Find the most popular articles through hashtags (`#`)
+- Find the most read articles by day, week, and month
+- Display a motivational quote at the top of the page
+
+The app is deployed [here](https://v18toucans05.netlify.app/).
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+This project is based on several packages including [Gatsby/React](https://gatsbyjs.org), [Sass](https://sass-lang.com/), and 
+[GraphQL](https://graphql.org/).
+
+### Running Locally
+
+1. Fork or clone the project from this repo
+2. `npm install` to download and install packages from `package.json`
+3. `npm run develop` to run the app
+4. Once the app has started open the browser using the URL `localhost:8000` to
+use the app
+
+**_That's all!_**
+
+### Deploying the App
+
+We have chosen to deploy to [Netlify.com](https://netlify.com). However, you 
+may prefer another hosting service. When choosing a site to deploy to make 
+sure it supports Gatsby and React.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+All dependencies are included in the `package.json` file.
 
-```
-Give examples
-```
+The following environment variables are required to run the app. These should
+be added to a `.env.development` file in your local repo for testing and to 
+the hosting service for your Production deployment.
 
-### Installing
+| Variable Name       | Description |
+|---------------------|-------------|
+| API_KEY             | Private key for the [quote](https://quotes21.p.rapidapi.com/quote) |
+| GATSBY_ALGOLIA_APP_ID | Application ID for the [Algolia search engine](https://www.gatsbyjs.org/packages/gatsby-plugin-algolia/?=algo) |
+| GATSBY_ALGOLIA_SEARCH_KEY | Private key for the Algolia search service |
+| ALGOLIA_ADMIN_KEY | Administrative private key for the Algolia search service |
 
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
-
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
-
-Explain how to run the automated tests for this system
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* The web framework used
-* Dependency Management
-* Used to generate RSS Feeds
-
-## Contributing
-
-Please read ... for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use ... for versioning. For the versions available, see the tags on repo. 
+You can find more information about how to use Algolia in Gatsby [here](https://janosh.io/blog/gatsby-algolia-search)
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* 
-
-See also the list of contirbutors who participated in this project.
+* **[Angel Young](https://github.com/angelyoung24)** 
+* **[yourname](your github URL)**
+* **[yourname](your github URL)**
 
 ## License
 
-This project is licensed under the MIT License - see the ... file for details
-
-## Acknowledgments
-
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
-
-*Thank you to [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2#file-readme-template-md) for the README.md Template
+This project is licensed under the [MIT License](https://opensource.org/licenses/MIT)
