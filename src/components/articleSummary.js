@@ -1,7 +1,8 @@
 import React from 'react'
 import { Link, graphql, useStaticQuery } from 'gatsby'
-
 import articleSummaryStyles from "../styles/articleSummary.module.scss";
+import Quote from '../components/quote'
+
 
 const ArticleSummary = () => {
 
@@ -27,7 +28,12 @@ const ArticleSummary = () => {
 
   return (
     <div className={articleSummaryStyles.container}>
-      <h1 className={articleSummaryStyles.artTitle}>Articles</h1>
+      <div className={articleSummaryStyles.artTitle}>
+        <div className={articleSummaryStyles.title}>Articles</div>
+        <div className={articleSummaryStyles.flex}>
+        <Quote />
+        </div>
+      </div>
       <ol>
         {data.allMarkdownRemark.edges.map((edge) => {
           return (
